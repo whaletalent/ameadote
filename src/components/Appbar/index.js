@@ -1,9 +1,12 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import * as S from './styled';
 
 function Appbar() {
-    return <div />;
+    return <S.Wrapper>
+        <S.Logo />
+        <S.PageTitle>Ameadote</S.PageTitle>
+    </S.Wrapper>;
 }
 
 export default Appbar;
