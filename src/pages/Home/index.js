@@ -10,8 +10,8 @@ function Home() {
 
     return <div>
         <Appbar></Appbar>
-        <AnimalCard></AnimalCard>
         <ChipFilters />
+        <AnimalCard></AnimalCard>
         <Link to="/profile">perfil</Link>
     </div>;
 }
