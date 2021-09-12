@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: space-around;
     margin-top:100px;
+   
 `;
 export const Container = styled.div`
     width: 250px;
