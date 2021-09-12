@@ -3,7 +3,6 @@ import * as S from './styled';
 
 function AnimalProfile() {
   return <S.Card1>
-
     <S.Profile>
       <img src="/imgs/hugo.png" img />
     </S.Profile>

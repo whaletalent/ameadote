@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Appbar from '../../components/Appbar'
 import AnimalCard from '../../components/AnimalCard';
 import ChipFilters from '../../components/ChipFilters';
@@ -8,11 +7,10 @@ import ChipFilters from '../../components/ChipFilters';
 
 function Home() {
 
-    return <div>
+    return <div className="page-wrapper">
         <Appbar></Appbar>
         <ChipFilters />
         <AnimalCard></AnimalCard>
-        <Link to="/profile">perfil</Link>
     </div>;
 }
 

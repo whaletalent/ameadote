@@ -4,30 +4,20 @@ export const Card1 = styled.div`
         display: grid;
         width: 100%;
         height: 100%;
-        margin: 0px;
-        grid-template-columns: 1fr 1fr; 
-        grid-gap:30px;
+        padding: 1rem 5rem;
+        grid-template-columns: 20rem 1fr; 
+        grid-gap: 5rem;
         background-color: #ACE8EF;
-        padding: 0px;
-        
-        
 `;
 
 export const AnimalImage = styled.div`
         height: 400px;
         width: 400px;
-        height: 100%;
-        width: 100%;
-        
 `;
 export const Card2 = styled.div`
-        display: grid;
-        width:850px;
-	      height:750px;
-    	  background-color:white;
-	      border-radius: 10px;
-        text-align:center;
-        margin: 50px;
+    	background-color: white;
+	border-radius: 50px;
+        padding: 2rem;
         grid-template-columns: 1fr;
         grid-row: 1/11;  
         grid-gap:10px;    

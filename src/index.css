@@ -1,8 +1,13 @@
 *{
   box-sizing: border-box;
 }
+
 #root{
   height: 100vh !important;
+}
+
+.page-wrapper{
+  padding: 1rem 5rem;
 }
 
 body {

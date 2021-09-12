@@ -4,6 +4,7 @@ function Profile() {
 
     return <AnimalProfile></AnimalProfile>
 
+
 }
 
 export default Profile;
